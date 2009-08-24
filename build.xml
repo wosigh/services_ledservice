@@ -2,7 +2,7 @@
 <project name="LEDService" default="build" basedir=".">
 	<target name="clean">
 		<delete dir="org"/>
-		<delete file="org.webosinternals.ledservice.jar"/>
+		<delete file="us.ryanhope.ledservice.jar"/>
 	</target>
 	<target name="build">
 		<javac 
@@ -13,7 +13,7 @@
  	</target>
 	<target name="jar" depends="build">
 		<jar
-			destfile="org.webosinternals.ledservice.jar"
+			destfile="us.ryanhope.ledservice.jar"
 			basedir="."
 			includes="**/*.class"
 		/>

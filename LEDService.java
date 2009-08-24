@@ -1,4 +1,4 @@
-package org.webosinternals.ledservice;
+package us.ryanhope.ledservice;
 
 import com.palm.luna.LSException;
 import com.palm.luna.service.LunaServiceThread;
